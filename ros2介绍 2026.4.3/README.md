@@ -27,7 +27,7 @@ ros2 pkg list
 
 - 创建python功能包
     ```bash
-    ros2 pkg create --build-type ament_python --dependencies rclpy
+    ros2 pkg create 包名 --build-type ament_python --dependencies rclpy
     ```
 
 - 添加可执行文件 cpp构建的功能包
