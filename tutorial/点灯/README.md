@@ -1,32 +1,20 @@
+#### 原理图
+
 #### CubeMX介绍
 
 #### 总是需要的配置
-##### debug模式
-出问题看https://www.baud-dance.com/docs/stm32/FAQ/CompilationFailed/
-
-##### 时钟源时钟树
-时钟源的HSE选择Crystal/Ceramic Resonator
-时钟树配置主频其余可自动配置
-
-##### 工具链
-Cmake
-
-##### 为每个外设生成单独的.c/.h文件
-勾选
-
-#### 原理图
-
-#### 点灯配置
+参考documentation/stm32.cd
 
 #### GPIO
 
-#### 引脚复用
-
-#### 引脚重映射
-
 #### 项目结构
 
-#### 问题
+#### 可以了解一下
+##### 引脚复用
+
+##### 引脚重映射
+
+#### QNA
 - 点灯失败
     注意有些参数不能想当然,GPIO_PIN_x,不能直接填引脚编号对应的数字,而应该查看函数文档
     ```C
