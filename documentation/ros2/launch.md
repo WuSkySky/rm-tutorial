@@ -15,6 +15,8 @@ node = Node(
     package='PKG_NAMW',
     executable='EXE_NAME',
     name='NODE_NAME',
+    # 输出日志到屏幕
+    output='screen',
     remappings=[
         (FROM, TO)
     ]
